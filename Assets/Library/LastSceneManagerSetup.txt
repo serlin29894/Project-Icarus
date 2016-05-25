@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/3d/ProvesV2.unity
+  isLoaded: 1
+  isActive: 1

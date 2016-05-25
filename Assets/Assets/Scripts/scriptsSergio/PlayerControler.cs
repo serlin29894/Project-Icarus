@@ -26,7 +26,7 @@ public class PlayerControler : MonoBehaviour {
 
     private Rigidbody MyRigidbody;
     private SpriteRenderer MySpriteRenderer;
-    private Puppet2D_GlobalControl Puppet;
+    //private Puppet2D_GlobalControl Puppet;
     private Animator myAnim;
 
     private CapsuleCollider MyCollider;
@@ -62,7 +62,7 @@ public class PlayerControler : MonoBehaviour {
     {
         MyRigidbody = GetComponent<Rigidbody>();
         MySpriteRenderer = GetComponent<SpriteRenderer>();
-        Puppet = GetComponent<Puppet2D_GlobalControl>();
+        //Puppet = GetComponent<Puppet2D_GlobalControl>();
         myAnim = GetComponent<Animator>();
 
         MyCollider = GetComponent<CapsuleCollider>();
